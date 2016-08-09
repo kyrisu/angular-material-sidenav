@@ -417,6 +417,7 @@
             '   ui-sref="{{section.state}}"\n' +
             '   ng-click="focusSection(section)">\n' +
             '   <span ng-if="section.icon" class="{{section.icon}}">&nbsp;&nbsp;</span>{{section.name}}\n' +
+            '   <ng-md-icon ng-if="section.mdIcon" class="{{section.mdIcon}}"></ng-md-icon>{{section.name}}\n' +
             '   <span class="md-visually-hidden"\n' +
             '       ng-if="isSelected(section.state)">\n' +
             '       current page\n' +
