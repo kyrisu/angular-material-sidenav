@@ -80,7 +80,7 @@
               return console.warn('ss-sidenav: `toState` key not found');
             }
 
-            if (toState.name !== page.state.match(/^[\w\.]+/).toString()) {
+            if (toState.name !== page.state.match(/^[\w\.-]+/).toString()) {
               return;
             }
 
